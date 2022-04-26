@@ -15,5 +15,5 @@ _Pre-reqs: [todo](#)_
 
 - `RMQ(3, 8) = 6`
   - The values in range `[3, 8]` are: `[22, 8, 6, 2, 17, 10]`.
-  - `2` is the smallest.
+  - `2` is the minimum.
   - `2` occurs at index `6`, which is the answer.
