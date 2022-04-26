@@ -5,7 +5,7 @@ _Pre-reqs: [todo](#)_
 ## Problem Statement
 
 - Preprocess an array of numbers.
-- Support queries on range `[i, j]` that returns the _index_ of minimum value in the range.
+- Support queries on range `[i, j]` that returns the _index_ of minimum value in the range `[i, j]`.
 
 *Example*
 
@@ -13,5 +13,7 @@ _Pre-reqs: [todo](#)_
 | ----- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | value |  3 |  7 |  9 | 22 |  8 |  6 |  2 | 17 | 10 |  1 |  5 |
 
-- `RMQ(2, 8) = 6`
-  - The value at `array[6] = 2`, which is the smallest between indices 2 to 8
+- `RMQ(3, 8) = 6`
+  - The values in range `[3, 8]` are: `[22, 8, 6, 2, 17, 10]`.
+  - `2` is the smallest.
+  - `2` occurs at index `6`, which is the answer.
